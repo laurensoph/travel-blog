@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="ottawa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <title> Ottawa</title>
+</head>
+<body>
+    <nav>
+    <ul class="ul-nav">
+        <li class="nav-list">
+            <a href="#home"> Home </a>
+        </li>
+        <li class="nav-list">
+            <a href="destinations.html"> Destinations </a>
+        </li>
+        <li class="nav-list">
+            <a href="#aboutUs"> About Us </a>
+        </li>
+    </ul>
+    </nav>
+    <div class="southKorea">
+        <!-- insert home page image in src -->
+        <img class="homeImage" src="img/parliament.jpeg" style="width: 100%;"></img>
+        <!-- insert title -->
+        <h1> Ottawa </h1>
+        <div class="container1">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+            <a class="btn" href=#top-sights> Sights </a>
+            <a class="btn" href=#transport> Transport </a>
+            <a class="btn" href=#food> Food </a>
+            <a class="btn" href=#blog> Blog </a>
+        </div>
+    </div>
+    <div class="subtitle" id="top-sights"> Top Sights </div>
+    <div class="container">
+        <div class="image-gallery">
+            <!-- insert image DON'T CHANGE CLASS NAME -->
+            <a href="img/canal.jpeg" class="img-1">
+                <div class="content1">
+                    <!-- insert image captions -->
+                    <h2>The Rideau Canal</h2>
+                    <p></p>
+                </div>
+            </a>
+            <!-- insert image DON'T CHANGE CLASS NAME -->
+            <a href="img/parliament_light_1.jpeg" class="img-2">
+                <div class="content1">
+                    <!-- insert image captions -->
+                    <h2>Parliament</h2>
+                    <p>The Canadian Parliament has light shows throughout the year. This was in September.</p>
+                </div>    
+            </a>
+            <!-- carry on for the other images -->
+            <a href="img/parliament_light_2.jpeg" class="img-3">
+                <div class="content1">
+                    <h2>Parliament</h2>
+                    <p>The Canadian Parliament has light shows throughout the year. This was in December.</p>
+                </div>  
+            </a>
+            <a href="img/ski.jpeg" class="img-4">
+                <div class="content1">
+                    <h2> Skiing Spots </h2>
+                    <p>In mid winter outdoor temperatures can drop to -35 degrees celsius, so outdoor activities can be tricky. But there are many wonderful ski spots a short drive away - and if you're looking for a bargain many offer night skiing at discount prices.</p>
+                </div> 
+            </a>
+            <a href="" class="img-5">
+                <div class="content1">
+                    <h2></h2>
+                    <p></p>
+                </div>  
+            </a>
+            <a href="img/dmz1.jpg" class="img-6">
+                <div class="content1">
+                    <h2></h2>
+                    <p></p>                
+                </div>  
+            </a>
+            <a href="" class="img-7">
+                <div class="content1">
+                    <h2></h2>
+                    <p></p>
+                </div> 
+            </a>
+            <a href="" class="img-8">
+                <div class="content1">
+                    <h2></h2>
+                    <p></p>
+                </div> 
+            </a>
+        </div>
+    </div>
+
+<div class="row-featurette">
+    <div class="row">
+      <div class="col-md-7" id="content-transport">
+        <a class="subtitle" id="transport"> Transport</a>
+        <!-- change text -->
+        <p class="lead"> Transport in Ottawa varies from the local bus service to skating on the Rideau Canal in the winter. You can spot commuters, families and friends skating to where they need to be, across the city.</p>
+      </div>
+      <div class="col-md-5">
+          <!-- change image -->
+        <img src="img/skating.jpg" class="img-fluid" id="transport-img">
+      </div>
+    </div>
+</div>
+
+<p class="subtitle" id="food">Food</p>
+<section>
+<div class="container" id="container0">
+    <div class="image-gallery2">
+        <!-- change image -->
+        <a href="img/beavertail.jpeg" class="img1">
+            <div class="food-content">
+                <!-- change text -->
+                <h3> Beavertail </h3>
+                <p> A beavertail is a tasty flat doughnut type of desert. You can get an assortment of toppings, and you can buy them across the city and even on the canal in winter.</p>
+                </div>
+        </a>
+        <!-- change image -->
+        <a href="" class="img2">
+            <div class="food-content">
+                <!-- change text -->
+                <h3> Poutine </h3>
+                <p>A Canadian classic - frieds, cheese curds and gravy (with an variety of toppings!)</p>
+            </div>
+        </a>
+         <!-- change image -->
+        <a href="img/origin.jpeg" class="img3">
+            <div class="food-content">
+                 <!-- change text -->
+                <h3> Cafes </h3>
+                <p>Ottawa has a range of lovely coffees to hide away from the cold. Origin is a lovely place to work remotely as well.</p>
+            </div>
+        </a>
+    </div>
+</div>
+</section>
+
+<p class="subtitle" id="blog">Blog</p>
+<div class="row-featurette">
+    <div class="row">
+      <div class="col-md-7 align-self-center" id="content-blog">
+          <!-- change text -->
+        <h3 class="subtitle" id="sub-blog"> What to do in a day</a>
+        <p class="blog-content"> In the morning, head to the Canadian parliament. This is worth a visit directly then walking to the viewpoint by the national gallery. If it's warm, there's a lovely cafe with beautiful views. Have a walk around downtown, or if it's mid winter hire skates to get a tour of the city from a different angle. Stop for a pountine for lunch at any street vendor, and perhaps a beavertail for desert if you aren't too full. In the afternoon, Ottawa is host to many amazing galleries that are worth a visit. For example, the war or art museum.</p>
+        <!-- change link -->
+        <a href="https://www.gallery.ca/" class="btn btn-default btnD" id="button" target="_blank">National Gallery of Canada</a>
+      </div>
+      <div class="col-md-5 align-self-center">
+          <!-- change image -->
+        <img src="img/skating_canal.jpeg" class="img-fluid" id="blog-img">
+      </div>
+    </div>
+</div>
+<div class="row-featurette">
+    <div class="row">
+      <div class="col-md-5 align-self-center" id="content-blog">
+          <!-- change image -->
+        <img src="img/gallery.jpeg" class="img-fluid" id="blog-img">
+      </div>
+      <div class="col-md-7 align-self-center">
+          <!-- change text -->
+        <h3 class="subtitle" id="sub-blog"> What to do in 48h</a>
+        <p class="blog-content"> Spend your first day wandering Ottawa's streets (or the canal). City hall has a fantastic free ice rink if you're a bit uneasy on your feet. Get well acquanted with downtown, and the viewspots. Enjoy a poutine for dinner, and visit a bar on Rideau.</p>
+        <!-- change link and text on button-->
+        <p class="blog-content"> On your second day, have a tour of a few of the extensive museums around the city. You can also book a tour of parliament and go up the viewpoint at the top. Enjoy a beavertail, and a coffee in one of the many cafes. </p>
+        <a href="https://visit.parl.ca/" class="btn btn-default btnD" id="button" target="_blank">Ottawa Parliament Website</a>
+    </p>
+      </div>
+    </div>
+</div>
+<div class="row-featurette">
+    <div class="row">
+      <div class="col-md-7 align-self-center" id="content-blog">
+          <!-- change text -->
+        <h3 class="subtitle" id="sub-blog2"> What to do in winter?</h3>
+                <ul>
+                    <li id="blog-content2">You can skate the full length of the canal if you have time, otherwise just popping along from one outdoor cafe to another is a worthwhile trip.</li>
+                    <li id="blog-content2">Hire a car (a truro is a super easy way to get around - like AirBnB but for cars) and drive to a nearby ski site. You can have a beginners lesson or hop straight on the slopes.</li>
+                    <li id="blog-content2">Visit an art or science gallery, it's a great way to get out of the cold.</li>
+                </ul>
+            </ul>
+      </div>
+      <div class="col-md-5 align-self-center">
+          <!-- change image -->
+        <img src="img/gallery 2.jpeg" class="img-fluid" id="blog-img">
+      </div>
+    </div>
+</div>
+</body>
+</html>
