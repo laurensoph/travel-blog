@@ -10,22 +10,7 @@ body{
     padding: 0;
     background: #fff;
     font-family:'Open Sans', sans-serif;
-}
-nav ul li a{
-    color: white;
-    font-family:'Open Sans', sans-serif;
-}
 
-nav{
-    width: 100vw;
-    /* makes nav bar take up entire width- vw means viewport width */
-    background-color: rgb(33, 34, 34);
-    text-align: center;
-  }
-
-nav ul li a:hover{
-    text-decoration: none;
-}
 
 .southKorea{
     font-family: 'Trade Winds', cursive;
