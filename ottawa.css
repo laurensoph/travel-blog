@@ -1,4 +1,32 @@
- 
+ .nav-list{
+   list-style-type: none; 
+   padding: 1.4vw;
+   display: inline-block;
+   font-size: 1.3vw;
+   position: relative;
+}
+
+.ul-nav{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+    font-family:'Open Sans', sans-serif;
+}
+
+nav{
+    width: 100vw;
+    /* makes nav bar take up entire width- vw means viewport width */
+    background-color: rgb(33, 34, 34);
+    text-align: center;
+  }
+
+nav ul li a:hover{
+    text-decoration: none;
+}
 .nav-list{
    list-style-type: none; 
    padding: 1.4vw;
