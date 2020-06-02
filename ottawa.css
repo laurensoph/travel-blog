@@ -1,7 +1,10 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
 .navbar navbar-expand-lg navbar-light bg-light {
     display: inline;
 }
-
 body{
     margin: 0;
     padding: 0;
