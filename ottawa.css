@@ -176,7 +176,7 @@ nav ul li a:hover{
     grid-area: img-1;
     min-height: 41.5rem;
    /*change background-image*/
-    background-image: url("img/palace.jpg");
+    background-image: url("img/canal.jpeg");
 }
 
 
@@ -223,7 +223,7 @@ nav ul li a:hover{
 .img-2{
     grid-area: img-2;
    /*change background-image*/
-    background-image: url("img/stream.jpg");
+    background-image: url("img/parliament_light_1.jpeg");
 }
 
 .img-2:hover .content1 h2,
@@ -237,7 +237,7 @@ nav ul li a:hover{
 .img-3{
     grid-area: img-3;
    /*change background-image*/
-    background-image: url("img/namsan-view.jpg");
+    background-image: url("img/parliament_light_2.jpeg");
 }
 .img-3:hover .content1 h2,
 .img-3:hover .content1 p
@@ -250,7 +250,7 @@ nav ul li a:hover{
 .img-4{
     grid-area: img-4;
    /*change background-image*/
-    background-image: url("img/cafe.jpg");
+    background-image: url("img/ski.jpeg");
 }
 .img-4:hover .content1 h2,
 .img-4:hover .content1 p
@@ -263,7 +263,7 @@ nav ul li a:hover{
 .img-5{
     grid-area: img-5;
    /*change background-image*/
-    background-image: url("img/dongdaemun.jpg");
+    background-image: url("img/bsbooks.jpeg");
 }
 .img-5:hover .content1 h2,
 .img-5:hover .content1 p
@@ -277,7 +277,7 @@ nav ul li a:hover{
     grid-area: img-6;
     min-height: 41.5rem;
    /*change background-image*/
-    background-image: url("img/dmz1.jpg");
+    background-image: url("img/football.jpeg");
 }
 .img-6:hover .content1 h2,
 .img-6:hover .content1 p
@@ -467,7 +467,7 @@ section{
 .img1{
     grid-area: img1;
    /*change background-image*/
-    background-image: url("img/kbbq.jpg");
+    background-image: url("img/beavertail.jpeg");
     min-width: 20rem;
 }
 .img1:hover .food-content,
@@ -482,7 +482,7 @@ section{
     grid-area: img2;
     min-width: 20rem;
    /*change background-image*/
-    background-image: url("img/octopus.jpg");
+    background-image: url("img/poutine.jpeg");
 }
 .img2:hover .food-content,
 .img2:hover .food-content h3,
@@ -496,7 +496,7 @@ section{
     grid-area: img3;
     min-width: 20rem;
    /*change background-image*/
-    background-image: url("img/fried-chicken.jpg");
+    background-image: url("img/origin.jpeg");
 }
 .img3:hover .food-content,
 .img3:hover .food-content h3,
