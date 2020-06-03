@@ -117,7 +117,7 @@ nav ul li a:hover{
     grid-template-areas: 
             'img-1 img-1 img-2 img-2'
             'img-1 img-1 img-5 img-6'
-            'img-3 img-3 img-8 img-6'
+            'img-3 img-3 img-5 img-6'
 }
 
 .image-gallery a{
