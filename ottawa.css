@@ -117,7 +117,7 @@ nav ul li a:hover{
     grid-template-areas: 
             'img-1 img-1 img-3 img-3'
             'img-1 img-1 img-6 img-6'
-            'img-7 img-5 img-6 img-6'
+            'img-7 img-5 img-6 img-6';
 }
 
 .image-gallery a{
@@ -317,11 +317,9 @@ nav ul li a:hover{
 @media screen and (max-width:900px){
     .image-gallery{
        grid-template-areas:
-            'img-1 img-1 img-2 img-2'
             'img-1 img-1 img-3 img-3'
-            'img-4 img-4 img-5 img-5'
-            'img-6 img-7 img-7 img-7'
-            'img-6 img-8 img-8 img-8';
+            'img-1 img-1 img-6 img-6'
+            'img-7 img-5 img-6 img-6';
     }
     .image-gallery a{
         height: 15rem;
@@ -337,14 +335,9 @@ nav ul li a:hover{
 @media screen and (max-width:600px){
     .image-gallery{
        grid-template-areas:
-            'img-1 img-1 img-1 img-1'
-            'img-2 img-2 img-2 img-2'
-            'img-3 img-3 img-3 img-3'
-            'img-4 img-4 img-4 img-4'
-            'img-5 img-5 img-5 img-5'
-            'img-6 img-6 img-6 img-6'
-            'img-7 img-7 img-7 img-7'
-            'img-8 img-8 img-8 img-8';
+            'img-1 img-1 img-3 img-3'
+            'img-1 img-1 img-6 img-6'
+            'img-7 img-5 img-6 img-6';
     }
     .image-gallery a,
     .img-1,
