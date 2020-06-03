@@ -116,7 +116,8 @@ nav ul li a:hover{
     grid-gap: 1.5rem;
     grid-template-areas: 
             'img-1 img-1 img-3 img-3'
-            'img-1 img-1 img-5 img-6'
+            'img-1 img-1 img-6 img-6'
+            'img-7 img-5 img-6 img-6'
 }
 
 .image-gallery a{
@@ -289,7 +290,7 @@ nav ul li a:hover{
 .img-7{
     grid-area: img-7;
    /*change background-image*/
-    background-image: url("img/heyri.jpg");
+    background-image: url("img/ski.jpeg");
 }
 .img-7:hover .content1 h2,
 .img-7:hover .content1 p
