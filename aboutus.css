@@ -49,12 +49,12 @@
  nav ul li a:hover{
      text-decoration: none;
  }
-
+ 
  h2 {
      font-weight: bold;
      font-size: 50px;
  }
- 
+
   p
   {
     font-size: 30px;
@@ -72,7 +72,7 @@
      "ij aj aj "
      ;
    grid-gap: 50px;
-   grid-template-rows: 0px 100px 300px 300px 300px 400px 400px;
+   grid-template-rows: 0px 100px 300px 400px 400px 400px 400px;
    
  }
  
@@ -198,6 +198,9 @@
  .grid div:nth-child(odd) {
    background-color: #f1c40f;
  }
+ 
+ 
+ 
  
  
  
