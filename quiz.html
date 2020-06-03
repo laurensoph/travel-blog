@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery Personality Quiz Plugin | Example Page</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+	<!-- CSS needed for the quiz-->
+	<link href="juma-quiz.css" rel="stylesheet">
+	<!-- Styles for the example -->
+	<link href="example.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="homepage.html">Homepage</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="quiz.html">Quiz <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="aboutus.html">About Us</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				North America
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="ottawa.html">Ottawa, Canada</a>
+			  </div>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Latin America
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="cdmx.html">Mexico City, Mexico</a>
+			  </div>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Asia
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="index.html">South Korea</a>
+					<a class="dropdown-item" hreg="japan.html">Japan</a>
+				</div>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Australasia
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="australia.html">Australia</a>
+				</div>
+			  </li>
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Middle East
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="uae.html">UAE</a>
+				</div>
+			  </li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
+ <div class="container">
+	<h1>Where should you go for your next holiday?</h1>
+	<div class="juma-quiz">
+		<ol id="js--my-quiz">
+			<li>
+				<h3 id="acc--question-one">What do you value most?</h3>
+				<ul>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-one" data-points="1">Culture</li>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-one" data-points="3">Adventure</li>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-one" data-points="2">Relaxing</li>
+				</ul>
+			</li>
+			<li>
+				<h3 id="acc--question-two">What is your favourite type of climate</h3>
+				<ul>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-two" data-points="3">Hot hot hot- the more tanning the better, right?</li>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-two" data-points="1">Meh not too bothered- I enjoy the seasons</li>
+					<li trole="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-two" data-points="2">I have a cold and icey soul</li>
+				</ul>
+			</li>
+			<li>
+				<h3 id="acc--question-two">What type of holiday do you enjoy?</h3>
+				<ul>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-two" data-points="1">Orangised with every day planned months in advance</li>
+					<li role="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-two" data-points="3">I go where the wind takes me</li>
+					<li trole="checkbox" tabindex="0" aria-checked="false" aria-labelledby="acc--question-two" data-points="2">Utter chaos</li>
+				</ul>
+			</li>
+		</ol>
+		<ul class="juma-score">	
+			<li data-points="3">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">Japan</h3>
+				<p>On the surface Japan appears exceedingly modern, but travelling around it offers numerous opportunities to connect with the country's traditional culture. Spend the night in a ryokan (traditional Japanese inn), sleeping on futons and tatami mats, and padding through well-worn wooden halls to the bathhouse (or go one step further and sleep in an old farmhouse). Meditate with monks or learn how to whisk bitter matcha (powdered green tea) into a froth. From the splendour of a Kyoto geisha dance to the spare beauty of a Zen rock garden, Japan has the power to enthral even the most jaded traveller.</p>
+				<a href="japan.html" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			<li data-points="4">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">South Korea</h3>
+				<p>Korea might be known as the Land of the Morning Calm, but dive into its capital Seoul, the powerhouse of Asia’s third-largest economy, and serenity may be the last thing you’ll perceive. This round-the-clock city is constantly in motion, with a work-hard, play-hard mentality that epitomises the nation’s indefatigable, can-do spirit. You can hardly turn a corner without stumbling across a helpful tourist information booth, a bustling subway station or a taxi in this multifaceted metropolis where meticulously reconstructed palaces rub shoulders with teeming night markets and dramatically modern architecture.</p>
+				<a href="index.html" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			</li>
+			<li data-points="5">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">UAE</h3>
+				<p>Oil-rich Abu Dhabi, the UAE's capital, is positioning itself as a culture and leisure hub. Beyond looms the vast Al Dhafra region, home to the northern reaches of the Rub Al Khali (Empty Quarter) desert's rippling dunes. Its magical silence is interrupted only by the whisper of shifting sands rolling towards Saudi Arabia.  North of Dubai, Sharjah is the UAE's art and heritage centre while Ras Al Khaimah is all about the beach – with a dash of adventure-activities thrown in. Head east into the jagged embrace of the Hajar Mountains to experience a side of the UAE far removed from Dubai's gloss.</p>
+				<a href="uae.html" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			</li>
+			<li data-points="6">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">Ottawa- Canada</h3>
+				<p>Descriptions of Ottawa read like an appealing dating profile: dynamic, gregarious, bilingual, likes kids and long walks along the river. In person, the attractive capital fits the bill.  Canada's gargantuan Gothic Parliament buildings regally anchor the downtown core, an inspiring jumble of pulsing districts around the Rideau Canal. A few days' worth of world-class museums are architecturally inspiring homes to a variety of intriguing collections.</p>
+				<a href="ottawa.html" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			</li>
+			<li data-points="7">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">Australia</h3>
+				<p>Nowhere builds cities quite like Australia: each is a homage to magnificent waterways or beachfronts, while offering different experiences across different geographies. Grab a bicycle from one of Melbourne’s bike-share racks and tour the city’s fashion districts and cafe-lined laneways. Only a city like Darwin can fuse southern-Asian influence with contemporary Aboriginal culture (and leave you with an impressive sunburn to boot). Want a bit of everything? Sydney will take your breath away with its natural beauty and bustling neighbourhoods, while Hobart strikes a chord with its Gothic history and contemporary art.  </p>
+				<a href="australia.html" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			</li>
+			<li data-points="8">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">Mexico City</h3>
+				<p>Mexico City is, and has always been, the sun in the Mexican solar system. Though much-maligned in the past, these days the city is cleaning up its act. Revamped public spaces are springing back to life, the culinary scene is exploding and a cultural renaissance is flourishingA stroll through the buzzing downtown area reveals the capital’s storied history, from pre-Hispanic and colonial-era splendor to its contemporary edge. This high-octane megalopolis contains plenty of escape valves in the way of old-school cantinas, intriguing museums, inspired dining and boating excursions along ancient canals. With so much going on, you might consider scrapping those beach plans.</p>
+				<a href="cdmx.html" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			</li>
+			<li data-points="9">
+				<p>You should travel to ...</p>
+				<h3 id= "title-country">Philippines</h3>
+				<p>With more than 7000 tropical islands to choose from, the Philippines is a beach bum's delight. There's an island to suit every taste, from marooned slicks of sand in the middle of the ocean, to volcanic fantasy-scapes concealing hidden lagoons, to sprawling mega-islands such as Luzon and Mindanao. Sun worshippers and divers should head straight to the Visayas, where island-hopping opportunities abound and the perfect beach takes many forms. More adventurous travellers can pitch a tent on a deserted stretch of coastline in Palawan and play solo Survivor for a few days.</p>
+				<a href="#" class="btn btn-defualt btnD" target="_blank" >Find out More</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	<!-- load jquery (necessary)-->
+	<script src="jquery.min.js"></script>
+	<!-- load the plugin -->
+	<script src="jquery.juma-quiz-min.js"></script>
+	<!-- init the plugin and define your options -->
+	<script>
+	$(function(){
+		$('body').jumaQuiz({
+			container: 'js--my-quiz',
+			showFinalScore: true
+		});
+	});
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

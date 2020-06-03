@@ -1,0 +1,7 @@
+/* neccessary styles for jQuery Personality Quiz Plugin */
+.juma-quiz li {
+  display: none;
+  cursor: pointer; }
+.juma-quiz .active,
+.juma-quiz .active li {
+  display: block; }
