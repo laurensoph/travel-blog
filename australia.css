@@ -367,6 +367,13 @@
        min-height: 25rem;
        height:25rem; 
     }
+    .content1 h2{
+        font-size: 5vw;
+    }
+    
+    .content1 p{
+        font-size: 3vw;
+    }
 }
 
 /* TRANSPORT SECTION */
